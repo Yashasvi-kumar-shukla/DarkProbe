@@ -39,33 +39,7 @@ brew install nmap  # macOS
 2. Add Nmap to system `PATH`.  
 
 ## **Usage 🛠️**  
-Run DarkProbe with a target domain/IP:  
-```bash
-python darkprobe.py -t <target>
-```
-
-### **Example Usage**  
-```bash
-python darkprobe.py -t example.com
-```
-**Options:**  
-```bash
--t, --target    Specify the target domain/IP  
--o, --output    Save results to a file  
--h, --help      Show help menu  
-```
-
-## **Example Output 📜**  
-```
-[+] Target: example.com
-[+] Running Recon...
-  ├── WHOIS Lookup: Found domain details
-  ├── Open Ports: 22, 80, 443
-  ├── Tech Stack: Apache 2.4, WordPress 5.9, OpenSSL 1.1.1
-  ├── Vulnerabilities:
-      ├── CVE-2023-XXXX (Apache 2.4) - High
-      ├── CVE-2022-YYYY (OpenSSL 1.1.1) - Medium
-```
+Run DarkProbe with a target domain/IP.
 
 ## **License 📄**  
 This project is licensed under the **MIT License** – feel free to use, modify, and contribute!  
